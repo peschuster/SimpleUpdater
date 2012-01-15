@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUpdater", "SimpleUpdater\SimpleUpdater.csproj", "{8851E1DF-3738-41F5-AC83-BA2181335EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUpdater.Core", "SimpleUpdater.Core\SimpleUpdater.Core.csproj", "{017C18CF-8143-40C3-B638-A5AD2041960B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUpdater.Core.Test", "SimpleUpdater.Core.Test\SimpleUpdater.Core.Test.csproj", "{D961B4F2-AA89-4344-8E90-49DBB8B0C72B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2454E301-8BDC-442B-8646-79BA36E790C6}"
+	ProjectSection(SolutionItems) = preProject
+		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
+		Local.testsettings = Local.testsettings
+		SimpleUpdater.vsmdi = SimpleUpdater.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SimpleUpdater.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8851E1DF-3738-41F5-AC83-BA2181335EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8851E1DF-3738-41F5-AC83-BA2181335EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8851E1DF-3738-41F5-AC83-BA2181335EAC}.Debug|x86.ActiveCfg = Debug|x86
+		{8851E1DF-3738-41F5-AC83-BA2181335EAC}.Debug|x86.Build.0 = Debug|x86
+		{8851E1DF-3738-41F5-AC83-BA2181335EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8851E1DF-3738-41F5-AC83-BA2181335EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8851E1DF-3738-41F5-AC83-BA2181335EAC}.Release|x86.ActiveCfg = Release|x86
+		{8851E1DF-3738-41F5-AC83-BA2181335EAC}.Release|x86.Build.0 = Release|x86
+		{017C18CF-8143-40C3-B638-A5AD2041960B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017C18CF-8143-40C3-B638-A5AD2041960B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017C18CF-8143-40C3-B638-A5AD2041960B}.Debug|x86.ActiveCfg = Debug|x86
+		{017C18CF-8143-40C3-B638-A5AD2041960B}.Debug|x86.Build.0 = Debug|x86
+		{017C18CF-8143-40C3-B638-A5AD2041960B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017C18CF-8143-40C3-B638-A5AD2041960B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017C18CF-8143-40C3-B638-A5AD2041960B}.Release|x86.ActiveCfg = Release|x86
+		{017C18CF-8143-40C3-B638-A5AD2041960B}.Release|x86.Build.0 = Release|x86
+		{D961B4F2-AA89-4344-8E90-49DBB8B0C72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D961B4F2-AA89-4344-8E90-49DBB8B0C72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D961B4F2-AA89-4344-8E90-49DBB8B0C72B}.Debug|x86.ActiveCfg = Debug|x86
+		{D961B4F2-AA89-4344-8E90-49DBB8B0C72B}.Debug|x86.Build.0 = Debug|x86
+		{D961B4F2-AA89-4344-8E90-49DBB8B0C72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D961B4F2-AA89-4344-8E90-49DBB8B0C72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D961B4F2-AA89-4344-8E90-49DBB8B0C72B}.Release|x86.ActiveCfg = Release|x86
+		{D961B4F2-AA89-4344-8E90-49DBB8B0C72B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

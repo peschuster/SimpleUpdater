@@ -1,0 +1,17 @@
+[Oo]bj/
+[Bb]in/
+*.user
+source/TestResults
+/privat
+*.vspscc
+*.vssscc
+*.suo
+*.cache
+*.docstates
+*.dgml
+_ReSharper.*
+*.csproj.user
+*[Rr]e[Ss]harper.user
+_ReSharper.*/
+source/packages/*
+.svn
